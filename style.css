@@ -58,7 +58,7 @@
 /* Start Animation Hambuger Menu to X */
 
 .banner header .change .bar1 {
-    transform: rotate(45deg) translate(6px, 8px);
+    transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .banner header .change .bar2 {
@@ -66,7 +66,7 @@
 }
 
 .banner header .change .bar3 {
-    transform: rotate(-45deg) translate(6px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 /* End Animation Hambuger Menu to X */
