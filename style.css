@@ -192,7 +192,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 300px 100px 300px;
+    padding: 300px 100px 100px;
     margin-top: -300px;
 
 }
@@ -208,3 +208,38 @@
 .technology .imgBx img {
     max-width: 100%;
 }
+
+/* Start CSS Our Client */
+
+.client {
+    background-color: #162c3b;
+    text-align: center;
+    padding: 100px;
+}
+.client .text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.client .imgBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.client .imgBx img {
+    max-width: 200px;
+    margin: 20px;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.client .imgBx img:hover {
+    opacity: 1;
+} 
+
+
+
+
