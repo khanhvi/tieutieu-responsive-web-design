@@ -156,7 +156,7 @@
 .services .container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 60px;
@@ -169,7 +169,7 @@
     width: 300px;
     height: 350px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border-radius: 5px;
 }
@@ -184,3 +184,27 @@
     letter-spacing: 1px;
 }
 
+/* Start CSS Technology */
+
+.technology {
+    background-color: #3f8ffc;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 300px 100px 300px;
+    margin-top: -300px;
+
+}
+
+.technology .contentBx {
+    max-width: 600px;
+}
+
+.technology .imgBx {
+    max-width: 250px;
+}
+
+.technology .imgBx img {
+    max-width: 100%;
+}
