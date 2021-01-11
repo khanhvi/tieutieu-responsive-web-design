@@ -236,10 +236,56 @@
     cursor: pointer;
 }
 
+.client .imgBx img:nth-child(2) {
+    margin-top: 45px;
+}
+
 .client .imgBx img:hover {
     opacity: 1;
-} 
+}
 
+/* Start CSS What Our Client Says */
 
+.testimonials {
+    position: relative;
+    padding: 100px;
+    background-color: #12222d;
+    text-align: center;
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+.testimonials .container .contentBx {
+    background-color: #fff;
+    padding: 60px 50px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+.testimonials .container .contentBx .text {
+    font-style: italic;
+    color: #12222d;
+}
+
+.testimonials .container .contentBx h3 {
+    width: 100%;
+    text-align: end;
+    margin-top: 40px;
+    font-weight: 500;
+    color: #3f8ffc;
+}
 
 
