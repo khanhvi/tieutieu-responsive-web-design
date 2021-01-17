@@ -327,7 +327,7 @@
 }
 
 .form .inputBx input::placeholder {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .form .inputBx textarea {
@@ -345,7 +345,7 @@
 }
 
 .form .inputBx textarea::placeholder {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .form .inputBx input[type="submit"] {
@@ -481,6 +481,15 @@
 
     .contact {
         padding: 50px;
+    }
+
+    .footer {
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+    }
+
+    .footer ul {
+        margin-bottom: 20px;
     }
 
 
